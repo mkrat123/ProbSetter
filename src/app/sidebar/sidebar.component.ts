@@ -26,7 +26,7 @@ export class SidebarComponent implements OnInit, AfterViewInit, OnDestroy {
       this.color = filter;
       if (filter === '#fff') {
         this.activeFontColor = 'rgba(0,0,0,.6)';
-      }else {
+      } else {
         this.activeFontColor = 'rgba(255,255,255,.8)';
       }
     });
@@ -34,7 +34,7 @@ export class SidebarComponent implements OnInit, AfterViewInit, OnDestroy {
       if (color === '#fff') {
         this.normalFontColor = 'rgba(0,0,0,.6)';
         this.dividerBgColor = 'rgba(0,0,0,.1)';
-      }else {
+      } else {
         this.normalFontColor = 'rgba(255,255,255,.8)';
         this.dividerBgColor = 'rgba(255, 255, 255, 0.5)';
       }

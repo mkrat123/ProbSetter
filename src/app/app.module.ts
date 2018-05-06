@@ -30,6 +30,7 @@ import { PanelsComponent } from './dashboard/component/panels/panels.component';
 
 import { SettingsService } from './services/settings.service';
 import { WizardComponent } from './dashboard/component/wizard/wizard.component';
+import { AddProblemComponent } from './dashboard/add-problem/add-problem.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { WizardComponent } from './dashboard/component/wizard/wizard.component';
     SettingsComponent,
     PriceTableComponent,
     PanelsComponent,
-    WizardComponent
+    WizardComponent,
+    AddProblemComponent
   ],
   imports: [
     BrowserModule,
